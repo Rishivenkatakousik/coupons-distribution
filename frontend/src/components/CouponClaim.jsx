@@ -11,7 +11,7 @@ const CouponClaim = () => {
     setCoupon(null);
 
     try {
-      const res = await fetch("http://localhost:5000/api/claim", {
+      const res = await fetch("https://coupons-distribution.onrender.com/api/claim", {
         method: "POST",
         credentials: "include",
       });
